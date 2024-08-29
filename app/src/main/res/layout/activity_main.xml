@@ -15,7 +15,7 @@
      android:layout_height="wrap_content"
      app:layout_constraintBottom_toBottomOf="parent"
      app:layout_constraintStart_toStartOf="parent"
-     android:layout_marginStart="5dp">
+     android:layout_marginStart="10dp">
 
      <TableRow tools:ignore="ExtraText">
          <TextView
@@ -30,7 +30,8 @@
              android:layout_height="70dp"
              android:layout_width="wrap_content"
              android:text="+/-"
-             style="@style/number"/>
+             style="@style/number"
+             android:background="#8D1DDBC9"/>
 
 
 
@@ -39,7 +40,8 @@
              android:layout_height="70dp"
              android:layout_width="wrap_content"
              android:text="%"
-             style="@style/number"/>
+             style="@style/number"
+             android:background="#8D1DDBC9"/>
 
          <TextView
              android:id="@+id/addition"
@@ -58,6 +60,7 @@
              android:layout_height="70dp"
              android:layout_width="wrap_content"
              android:text="7"
+
              style="@style/number"/>
 
          <TextView
@@ -193,7 +196,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="32sp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -208,10 +211,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginBottom="56dp"
-        android:textSize="24sp"
+        android:textSize="32sp"
         android:padding="10dp"
         android:textColor="@color/white"
-        android:textColorHint="#C80505"
+        android:textColorHint="#EB8E05"
          app:layout_constraintHorizontal_bias="0.8"/>
 
 
